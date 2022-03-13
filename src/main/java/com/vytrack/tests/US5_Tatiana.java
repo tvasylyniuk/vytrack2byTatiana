@@ -28,10 +28,11 @@ public class US5_Tatiana extends TestBase {
         //Locate vehicles model
         WebElement vehiclesModelBtn = Driver.getDriver().findElement
                 (By.xpath("//span[normalize-space()='Vehicles Model' and contains(@class, 'title title-level-2')]"));
+        vehiclesModelBtn.click();
+
 
 
 
 
     }
-
 }
